@@ -22,6 +22,8 @@ code, but you can base yours on test code from other exercises.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+The worst-case time complexity would mean that each edge and each vertex is visited once. This would occur with a connected graph where every node is accessable from the starting node. Therefore the worst-case time complexity would be O(|V|+|E|).
+
 ## Bonus
 
 Implement and analyze breadth-first search.
